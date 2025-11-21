@@ -5,8 +5,7 @@
 
 1. Задача: Climbing Stairs
 
-
-
+```
     fun climbStairs(n: Int): Int {
         if (n <= 2) return n
         var prev1 = 1
@@ -20,6 +19,7 @@
         
         return prev2
     }
+```
 
 Сложность: O(n) по времени, O(1) по памяти
 
